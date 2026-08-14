@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pan African Integrated Solutions (PAIS)</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .heading-font { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <!-- Header Navigation -->
+    <header class="bg-slate-900 text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="text-xl font-extrabold tracking-wider text-amber-500">PAIS</div>
+            <nav class="hidden md:flex space-x-8 font-medium text-sm">
+                <a href="#about" class="hover:text-amber-400 transition">About Us</a>
+                <a href="#pillars" class="hover:text-amber-400 transition">Strategic Pillars</a>
+                <a href="#insights" class="hover:text-amber-400 transition">Research & Insights</a>
+                <a href="#contact" class="hover:text-amber-400 transition">Contact</a>
+            </nav>
+            <a href="#contact" class="bg-amber-600 hover:bg-amber-500 text-white font-semibold text-xs px-4 py-2.5 rounded-lg transition">Get in Touch</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-slate-900 text-white py-20 lg:py-28 px-4">
+        <div class="max-w-5xl mx-auto text-center space-y-6">
+            <span class="bg-amber-500/10 text-amber-400 text-xs font-semibold px-3 py-1.5 rounded-full border border-amber-500/20 uppercase tracking-widest">
+                Pan-African Leadership & Advisory
+            </span>
+            <h1 class="text-3xl sm:text-5xl font-extrabold leading-tight tracking-tight text-white">
+                Driving Sustainable Growth, Trade Integration & Strategic Excellence Across Africa
+            </h1>
+            <p class="text-slate-300 text-base sm:text-lg max-w-3xl mx-auto font-normal leading-relaxed">
+                Pan African Integrated Solutions (PAIS) delivers high-impact trade policy advocacy, institutional research, infrastructure strategy, and corporate advisory to accelerate continental prosperity.
+            </p>
+            <div class="pt-4 flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#pillars" class="bg-amber-600 hover:bg-amber-500 text-white font-semibold px-6 py-3.5 rounded-lg shadow-lg text-sm transition">
+                    Explore Strategic Pillars
+                </a>
+                <a href="#contact" class="border border-slate-700 hover:bg-slate-800 text-slate-200 font-semibold px-6 py-3.5 rounded-lg text-sm transition">
+                    Institutional Enquiries
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strategic Pillars Section -->
+    <section id="pillars" class="py-16 px-4 max-w-7xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Our Core Mandates</h2>
+            <p class="text-slate-600 mt-2 text-sm sm:text-base">Integrated solutions for complex economic and development challenges.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Pillar 1 -->
+            <div class="bg-white p-6 sm:p-8 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-lg flex items-center justify-center font-bold text-lg mb-6">01</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Trade Facilitation & Policy</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Advancing cross-border trade framework advocacy, AfCFTA integration strategies, policy reform, and regional market alignment.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Pillar 2 -->
+            <div class="bg-white p-6 sm:p-8 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-lg flex items-center justify-center font-bold text-lg mb-6">02</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Industrial & Technical Advisory</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Bridging engineering rigor with strategic development to optimize operational models, infrastructure assets, and built environment performance.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Pillar 3 -->
+            <div class="bg-white p-6 sm:p-8 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-lg flex items-center justify-center font-bold text-lg mb-6">03</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Research & Knowledge Output</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Generating data-driven policy briefs, market intelligence, high-level publications, and strategic institutional frameworks.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Impact Section -->
+    <section id="about" class="bg-slate-900 text-white py-16 px-4">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
+            <div class="space-y-4 md:w-1/2">
+                <h2 class="text-2xl sm:text-3xl font-bold text-white">Built for Africa’s Next Decade</h2>
+                <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                    At PAIS, we operate at the intersection of executive strategy, policy, and practical engineering execution. We equip public and private sector leaders with actionable insights to navigate emerging markets across the continent.
+                </p>
+            </div>
+            <div class="w-full md:w-5/12 bg-slate-800 p-6 rounded-xl border border-slate-700">
+                <h4 class="text-amber-400 font-semibold text-sm mb-2">Key Focus Areas</h4>
+                <ul class="text-slate-300 text-xs sm:text-sm space-y-2.5">
+                    <li class="flex items-center">✓ AfCFTA Market Readiness</li>
+                    <li class="flex items-center">✓ Institutional Governance</li>
+                    <li class="flex items-center">✓ Energy & Infrastructure Advisory</li>
+                    <li class="flex items-center">✓ Executive Research Output</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-4 max-w-4xl mx-auto">
+        <div class="bg-white p-8 sm:p-10 rounded-2xl border border-slate-200 shadow-md text-center">
+            <h2 class="text-2xl font-bold text-slate-900 mb-2">Engage with PAIS</h2>
+            <p class="text-slate-600 text-sm mb-6">For advisory mandates, research partnerships, or institutional inquiries.</p>
+            <a href="mailto:info@panafricanintegratedsolutions.com" class="inline-block bg-slate-900 hover:bg-slate-800 text-amber-400 font-semibold px-6 py-3 rounded-lg text-sm transition">
+                Contact Executive Office
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-500 py-8 text-center text-xs border-t border-slate-800">
+        <p>© 2026 Pan African Integrated Solutions (PAIS). All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
